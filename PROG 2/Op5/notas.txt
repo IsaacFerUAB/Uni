@@ -1,0 +1,40 @@
+Cada paraula vàlida obté una puntuació segons els criteris següents:
+▪ Les paraules de menys de 3 lletres tenen 0 punts.
+▪ Les paraules de 3 lletres tenen 1 punt.
+▪ Les paraules de 4 lletres tenen 2 punts.
+▪ Les paraules de més de 4 lletres tenen una puntuació igual a la longitud de la paraula.
+▪ Les paraules que són tutti multipliquen per dos la puntuació obtinguda segons els criteris anteriors.
+
+Lletres | punts
+    3       1
+    4       2
+  x > 4     x
+  //TUTTI   punts (x2)
+
+
+paraula és la paraula que s’introdueix i que s’ha de comprovar si és vàlida o no. Sempre conté el caràcter ‘\0’ per indicar el
+final de la paraula.
+_ _ _ _ /0
+▪ lletres és un array que conté les 7 lletres possibles per formar paraules. La primera posició de l’array conté la lletra central
+que ha d’estar a totes les paraules vàlides.
+▪ diccionari és una matriu que conté la llista de paraules vàlides. Cada fila de la matriu és una de les paraules vàlides del
+diccionari (que també contenen el caràcter ‘\0’ per indicar el final de la paraula).
+▪ tutti s’utilitza com a paràmetre per referència per retornar si la paraula és un tutti o no. Si la paraula no és vàlida ha de
+retornar false.
+▪ puntuacio s’utilitza com a paràmetre per referència per retornar la puntuació que s’obté amb la paraula. Si la paraula no és
+vàlida ha de retornar 0.
+▪ La funció retorna si la paraula és vàlida o no
+
+---------------------
+   FUNCIONS A FER
+---------------------
+
+1. Lletra central -> bool CheckLletraCentral
+2.comprovar que les lletres siguin les que toquen -> bool lletresValides
+3.paraula en diccionari -> paraulaEnDiccionari
+
+Si paralua valida:
+   Calcular puntuacio 
+      - Nombre de lletres
+      -Tutti?
+
