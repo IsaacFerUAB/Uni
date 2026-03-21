@@ -37,7 +37,7 @@ bool lletresValides(char paraula[MAX_PARAULA],char lletres[N_LLETRES]){
         
         while((lletraEnParaula = false) && (iLletresValides < N_LLETRES)){
             //conmprova si la lletra esta en les 7
-            if(lletraParaula == lletraValida[iLletresValides]){
+            if(lletraParaula == lletres[iLletresValides]){
                 lletraEnParaula = true;
             }else{
                 iLletresValides++;
