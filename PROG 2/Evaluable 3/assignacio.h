@@ -21,6 +21,7 @@ typedef struct
         string nom;
         int maxMatriculats;
         int nAssignats;
+        string estudiantsAssignats[MAX_ESTUDIANTS];
 } Assignatura;
 
 typedef struct 
